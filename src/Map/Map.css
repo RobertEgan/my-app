@@ -1,0 +1,25 @@
+.Map {
+  background-color: lightblue;
+  position: relative;
+  top: 2em;
+  left: 2em;
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+  color: white;
+  float:left;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.Map.expanded {
+  left: 20em;
+  width: calc(100% - 20em);
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.Map-Img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
