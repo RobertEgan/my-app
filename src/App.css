@@ -23,3 +23,10 @@
     transform: rotate(360deg);
   }
 }
+
+.page {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 2em);
+  top: 2em;
+}
