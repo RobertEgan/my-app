@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import { Button } from 'reactstrap';
 
 class Header extends Component {
   render() {
     return (
         <header className="App-header">
             <Link to="/">
-              <button>Search</button>
+              <Button>Search</Button>
             </Link>
             <Link to="/maps">
-              <button>Maps</button>
+              <Button>Maps</Button>
             </Link>
             <Link to="/about">
-              <button>About</button>
+              <Button>About</Button>
             </Link>
         </header>
     );

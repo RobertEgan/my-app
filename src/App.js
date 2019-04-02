@@ -2,17 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.css';
 import Header from './Header/Header';
-import Map from './Map/Map';
+import Maps from './Map/Map';
 import LeftBar from './LeftBar/LeftBar';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
-const Maps = () => (
-  <div >
-    Maps
-  </div>
-)
 
 const About = () => (
   <div >
